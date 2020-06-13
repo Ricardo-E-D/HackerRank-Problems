@@ -11,6 +11,11 @@ namespace AVeryBigSum
             long sum = aVeryBigSum(numbers);
         }
 
+        /// <summary>
+        /// returns the sum of a elements from an array
+        /// </summary>
+        /// <param name="ar"></param>
+        /// <returns></returns>
         static long aVeryBigSum(long[] ar)
         {
             long result = 0;
