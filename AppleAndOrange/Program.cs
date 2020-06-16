@@ -18,6 +18,15 @@ namespace AppleAndOrange
 
         }
 
+        /// <summary>
+        /// https://www.hackerrank.com/challenges/apple-and-orange/problem
+        /// </summary>
+        /// <param name="s"></param>
+        /// <param name="t"></param>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <param name="apples"></param>
+        /// <param name="oranges"></param>
         static void countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges)
         {
             List<int> applesPositions = new List<int>();
